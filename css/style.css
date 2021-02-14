@@ -7,13 +7,13 @@ box-sizing: border-box;
 }
 
 body{
+
    width: auto; 
    height: auto;   
-   background: #F0B429;
-
+   background: #F0B429;    
 }
-.logo{
-   
+.logo{   
+
    width:12%;
    height: 22%;
    position: absolute;
@@ -28,6 +28,16 @@ body{
    height: 50%;
    text-align: left;
    background: #005883;
+ 
+}
+.menu{
+   margin-top: 1%;
+   position: relative;
+    width: 100; 
+    height: 50%;
+   text-align: center;
+    background: #005883;
+
     
    
 }
@@ -56,13 +66,16 @@ body{
  }
 
  .subItem{
+
    position: fixed;
    background:#F0B429;
    visibility: hidden;
+
  }
 
  .subItem li a {
  
+
    padding: 15px;
    color: #005883;  
    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -72,11 +85,14 @@ body{
 
  .menuItem li:hover .subItem {
 
+
    visibility: visible;
+
  }
  .titulo {
   
    margin-top: 1%;
+
    text-align: right;  
    background:#F47920;
    color: #fff;
@@ -95,10 +111,25 @@ body{
    border-color: #8d969b;  
    background: #8d969b;
    z-index: 20;
+
+ }
+ .portada{
+    position: static;
+    margin-top: 7%;
+   
+    width:100;
+    height: 60%;  
+    align-content: center;
+    border-style: solid;
+    border-radius: 5.cm;
+    border-color: #8d969b;  
+    z-index: 20;
+
    
     
  }
  .widget{
+
    margin-bottom: 60%;
    margin-left: 72%;
    position: absolute;
@@ -106,6 +137,7 @@ body{
    height: 75%;
    background: #F47920;  
    z-index: 28;  
+
   
    }
 .redes{
@@ -117,6 +149,7 @@ body{
    z-index: 29;  
 }
 .social{
+
    margin-top: 10%;
    position: absolute;
    width:100%;
@@ -125,11 +158,20 @@ body{
 } 
 .sitio{
    margin-top: 70%;
+   margin-top: 5%;
+   position: absolute;
+   width:100%;
+   height: 40%;
+   z-index: 30; 
+} 
+.sitio{
+   margin-top: 10%;
    position: absolute;
    width:100%;
    height: 40%;
 }
 .pie{
+
    margin-top: 0%;
    padding: 40px 10px 20px 10px;
    text-align: left;
@@ -138,10 +180,12 @@ body{
    color: #fff;
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    text-decoration: none;
+
     
 }
 article{
   
+
    position: relative;
    text-align:left;
    padding-bottom: 1% ;
@@ -151,15 +195,17 @@ article{
    line-height : 25px;
    text-decoration: none;
    z-index: 13
+
    
 }
 
 div
 {
    position: relative;
+
    width:70%;
    height: 1%;
-  
+
 }
 
 .video{
@@ -177,5 +223,3 @@ div
   
  
 }
-
-
