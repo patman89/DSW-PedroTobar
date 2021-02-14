@@ -98,12 +98,12 @@ body{
    
     
  }
- .widget{
+ aside.widget{
    margin-bottom: 60%;
    margin-left: 72%;
    position: absolute;
-   width:27%;
-   height: 75%;
+   width:400px;
+   height: 400px;
    background: #F47920;  
    z-index: 28;  
   
@@ -119,9 +119,9 @@ body{
 .social{
    margin-top: 10%;
    position: absolute;
-   width:100%;
-   height: 40%;
-   z-index: 27; 
+   width:40%;
+   height: 1%;
+  
 } 
 .sitio{
    margin-top: 70%;
@@ -129,7 +129,7 @@ body{
    position: absolute;
    width:100%;
    height: 40%;
-   z-index: 9; 
+ 
 }
 .pie{
    margin-top: 0%;
@@ -140,7 +140,7 @@ body{
    color: #fff;
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    text-decoration: none;
-    
+   z-index: 50; 
 }
 article{
   
