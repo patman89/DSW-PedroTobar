@@ -118,17 +118,18 @@ body{
 }
 .social{
    margin-top: 10%;
-   position: relative;
+   position: absolute;
    width:100%;
    height: 40%;
    z-index: 27; 
 } 
 .sitio{
    margin-top: 70%;
+   margin-right: 11%;
    position: absolute;
    width:100%;
    height: 40%;
-   z-index: 28; 
+   z-index: 9; 
 }
 .pie{
    margin-top: 0%;
@@ -179,4 +180,34 @@ div
  
 }
 
+.sopa{
+   
+   position: relative;
+   display: inline-block;
+   margin-top: 3%;
+   margin-left: 5%;
+   width: 800px;
+   height: 480px;
+   align-content: center;
+   z-index: 8;
+  
+  
+  
+ 
+}
 
+.test{
+   
+   position: relative;
+   display: inline-block;
+   margin-top: 1%;
+   margin-left: 3.5%;
+   width: 800px;
+   height: 680px;
+   align-content: center;
+   z-index: 20;
+  
+  
+  
+ 
+}
