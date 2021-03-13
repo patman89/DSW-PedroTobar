@@ -167,8 +167,8 @@ div
 .video{
    
    position: relative;
-   display: inline-block;
-   margin-top: 10%;
+   
+   margin-top: 7%;
    margin-left: 5%;
    width: 800px;
    height: 380px;
@@ -219,6 +219,19 @@ div
    z-index: 30;  
 }
   
-  
+.audio{
+   
+   position: relative;
+   
+   margin-top: 1%;
+   margin-left: 5%;
+   width: 800px;
+   height: 20px;
+   align-content: letf;
+   z-index: 9;  
+ 
+}
+
+
   
  
